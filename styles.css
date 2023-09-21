@@ -1,9 +1,4 @@
-body {
-    font-size: 10px;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+
 
 .card {
     width: 27vw;
@@ -14,6 +9,7 @@ body {
     height: 55vh;
     justify-content: space-between;
     margin: 1rem;
+    object-fit: cover;
 }
 .card-img {
     width: 80%;
@@ -30,4 +26,19 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+* {
+    box-sizing: border-box;
+}
+html, body, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+body {
+    line-height: 1;
 }
