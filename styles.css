@@ -34,11 +34,13 @@ body {
 }
 
 .card-image {
-  width: 17rem;
+  width: 16rem;
   height: auto;
-  margin: 0.5vw 0.5vh;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 15px;
   max-width: 100%;
+  display: block;
 }
 
 .card {
