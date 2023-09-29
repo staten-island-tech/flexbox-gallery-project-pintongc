@@ -58,17 +58,19 @@ body {
 
 @media screen and (max-width:1200px){
   .card {
-    width: 20vw;
+    width: 35%;
+    height: 90%;
   }
 }
 @media screen and (max-width:800px){
   .card {
-    width: 100vw;
+    width: 100%;
+    height: 100%;
   }
 }
 @media screen and (max-width:500px){
   .card {
-    width: 100vw;
+    width: 100%;
     orientation: portrait;
   }
 }
