@@ -24,13 +24,13 @@ body {
   text-align: center;
 }
 
-.header {
+.header-container {
   margin-bottom: 3vh;
   text-align: center;
   border-bottom: 5px solid #689F38;
   padding: 6rem 10rem;
   background-color: #e0ffcd;
-  font-size: 5rem;
+  position:relative;
 }
 
 .card-image {
@@ -74,11 +74,44 @@ body {
 
 #credits {
   position: absolute;
-  top: 17rem;
+  top: 23.5rem;
   left: 0.3rem;
 }
 
 #card1:hover {
   opacity: 0.3;
   scale: 0.5;
+}
+
+.animation {
+  font-size: 5rem;
+  animation: animation, float;
+  animation-duration: 3s, 1.7s;
+  animation-delay: 150ms, 3s;
+  animation-timing-function: ease-in-out, linear;
+  animation-iteration-count: 1, infinite;
+}
+
+@keyframes animation {
+0%{
+transform: translateY(-16rem);
+}
+100%{
+transform: translateY(0rem);
+}
+}
+
+@keyframes float {
+0%{
+transform: translateY(0rem);
+}
+25%{
+transform: translateY(1rem);
+}
+75%{
+transform: translateY(-1rem);
+}
+100%{
+transform: translateY(0rem);
+}
 }
