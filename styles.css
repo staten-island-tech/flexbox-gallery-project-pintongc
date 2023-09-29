@@ -66,6 +66,12 @@ body {
     width: 100vw;
   }
 }
+@media screen and (max-width:500px){
+  .card {
+    width: 100vw;
+    orientation: portrait;
+  }
+}
 .card-description {
   text-align: center;
   font-size: 1rem;
@@ -90,6 +96,7 @@ body {
   animation-delay: 150ms, 3s;
   animation-timing-function: ease-in-out, linear;
   animation-iteration-count: 1, infinite;
+  text-shadow: 0.25rem 0.15rem 0.1rem lightslategray;;
 }
 
 @keyframes animation {
